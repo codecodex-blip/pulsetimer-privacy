@@ -1,0 +1,14 @@
+# Go to a folder where you want to keep the privacy policy
+mkdir pulsetimer-privacy
+cd pulsetimer-privacy
+
+# Create index.html file with the privacy policy content
+nano index.html   # or use VS Code, Notepad, etc.
+
+# Initialize git and push to GitHub
+git init
+git add .
+git commit -m "Add privacy policy"
+git branch -M main
+git remote add origin https://github.com/<your-username>/pulsetimer-privacy.git
+git push -u origin main
